@@ -4,7 +4,7 @@ const CONFIG = {
     name: "laion",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Full Stack Developer",
-    bio: "I develop everything using node.",
+    bio: "Foco total em aplicar inteligência artificial em projetos reais!",
     email: "ulaioncontato@gmail.com",
     linkedin: "leonardogrig",
     github: "leonardogrig",
@@ -18,8 +18,8 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!"
+    title: "L AI on",
+    description: "bem vindo ao blog"
   },
 
   // CONFIG configration (required)
