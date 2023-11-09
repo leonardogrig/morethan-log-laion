@@ -8,7 +8,8 @@ const CONFIG = {
     email: "ulaioncontato@gmail.com",
     linkedin: "leonardogrig",
     github: "leonardogrig",
-    instagram: "",
+    twitter: "laion_prompt",
+    youtube: "laion_prompt",
   },
   projects: [
     {
