@@ -1,4 +1,3 @@
-import { MendableFloatingButton } from "@mendable/search"
 import { dehydrate } from "@tanstack/react-query"
 import { GetStaticProps } from "next"
 import MetaConfig from "src/components/MetaConfig"
@@ -32,12 +31,6 @@ const FeedPage: NextPageWithLayout = () => {
 
   return (
     <>
-      <MendableFloatingButton
-        anon_key="ae1f8925-ab24-4e1d-b6ae-9daa3ca43052"
-        style={{ darkMode: true, accentColor: "#fff" }}
-       icon="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKMZ47ViuTSFdjFepSR4H64vLDHiKVVPfX_Q&usqp=CAU"
-      />
-
       <MetaConfig {...meta} />
       <Feed />
     </>
