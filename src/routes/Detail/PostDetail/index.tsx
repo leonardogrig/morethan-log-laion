@@ -1,11 +1,11 @@
-import React from "react"
-import PostHeader from "./PostHeader"
-import Footer from "./PostFooter"
-import CommentBox from "./CommentBox"
-import Category from "src/components/Category"
 import styled from "@emotion/styled"
-import NotionRenderer from "../components/NotionRenderer"
+import React from "react"
+import Category from "src/components/Category"
 import usePostQuery from "src/hooks/usePostQuery"
+import NotionRenderer from "../components/NotionRenderer"
+import CommentBox from "./CommentBox"
+import Footer from "./PostFooter"
+import PostHeader from "./PostHeader"
 
 type Props = {}
 
@@ -48,7 +48,7 @@ const StyledWrapper = styled.div`
   padding-right: 1.5rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
-  border-radius: 1.5rem;
+  border-radius: 0.3rem;
   max-width: 56rem;
   background-color: ${({ theme }) =>
     theme.scheme === "light" ? "white" : theme.colors.gray4};

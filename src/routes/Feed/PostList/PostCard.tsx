@@ -1,11 +1,11 @@
+import styled from "@emotion/styled"
+import Image from "next/image"
 import Link from "next/link"
 import { CONFIG } from "site.config"
 import { formatDate } from "src/libs/utils"
+import Category from "../../../components/Category"
 import Tag from "../../../components/Tag"
 import { TPost } from "../../../types"
-import Image from "next/image"
-import Category from "../../../components/Category"
-import styled from "@emotion/styled"
 
 type Props = {
   data: TPost
@@ -66,7 +66,7 @@ const StyledWrapper = styled(Link)`
     overflow: hidden;
     position: relative;
     margin-bottom: 1.5rem;
-    border-radius: 1rem;
+    border-radius: 0.3rem;
     background-color: ${({ theme }) =>
       theme.scheme === "light" ? "white" : theme.colors.gray4};
     transition-property: box-shadow;

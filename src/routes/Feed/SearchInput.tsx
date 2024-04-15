@@ -1,5 +1,5 @@
 import styled from "@emotion/styled"
-import React, { InputHTMLAttributes, ReactNode } from "react"
+import React, { InputHTMLAttributes } from "react"
 import { Emoji } from "src/components/Emoji"
 
 interface Props extends InputHTMLAttributes<HTMLInputElement> {}
@@ -37,7 +37,7 @@ const StyledWrapper = styled.div`
     padding-bottom: 0.5rem;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
-    border-radius: 1rem;
+    border-radius: 0.3rem;
     outline-style: none;
     width: 100%;
     background-color: ${({ theme }) => theme.colors.gray4};

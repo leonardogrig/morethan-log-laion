@@ -1,7 +1,7 @@
-import { CONFIG } from "site.config"
+import styled from "@emotion/styled"
 import Image from "next/image"
 import React from "react"
-import styled from "@emotion/styled"
+import { CONFIG } from "site.config"
 
 type Props = {
   className?: string
@@ -47,7 +47,7 @@ const StyledWrapper = styled.div`
   > .mid {
     padding: 0.5rem;
     margin-bottom: 1rem;
-    border-radius: 1rem;
+    border-radius: 0.3rem;
     background-color: ${({ theme }) =>
       theme.scheme === "light" ? "white" : theme.colors.gray4};
     > .wrapper {

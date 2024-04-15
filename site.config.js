@@ -2,14 +2,14 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "Leonardo Grigorio Araujo",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "/leo.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Full Stack Web Developer",
     bio: "Helping shape the future of AI with awesome web apps.",
     email: "leonardogrig@gmail.com",
     linkedin: "leonardogrig",
     github: "leonardogrig",
-    twitter: "laion_prompt",
-    youtube: "laion_prompt",
+    twitter: "leonardogrig",
+    youtube: "leonardogrig",
   },
   projects: [
     {
